@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exhibitions</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar-placeholder').innerHTML = data;
+    });
+</script>
+
+  <div class="main-text">
+
+  <h1>EXHIBITIONS </h1>
+
+
+  <p> <h2><a href="TheOldFuture.html">THE OLD FUTURE IS GONE</a> </h2><p2>
+  <p><h3> Pafos Municipal Art Centre "Palia Ilektriki", February, March 2024</h3></p>
+  <p>
+    <p><img src="images\ACT01TheriaAnthrrope.jpg" alt="The Old Future is Gone">
+  <figcaption>Yiannos Economou 2022 Video Still</figcaption>
+<p>
+
+</p>    <p> <h2><a href="WoundedPlanetLarnaka.html">ART FOR A WOUNDED PLANET</a> </h2><p2>
+  <p><h3> PLarnaka Municipal Gallery Autumn 2024, Autumn 2024</h3></p>
+  <img src="images\JanisJefferies.jpg" alt="Oceans For A Wounded Planet, 2024">  <figcaption>Janis Jefferies, Oceans For A Wounded Planet, 2024</figcaption>
+  <p>
+
+
+</body>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+
+
+
+</html>
+
+
+
+
+
+
+
